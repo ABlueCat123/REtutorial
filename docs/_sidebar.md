@@ -1,7 +1,7 @@
 <!-- Docsify/_sidebar.md -->
 - [前言](/) 
 - 第一部分 基础逆向工程
-  - [第一节 基础逆向工具的使用](/part1/chapter1/L1)
+  - [第一节 Java运行机制与反编译器介绍](/part1/chapter1/L1)
     - [补充篇 jadx的实用功能](/part1/chapter1/EX1)
   - [第二节 混淆与反混淆](/part1/chapter2/L2)
   - [第三节 网络通信、抓包与修改](/part1/chapter3/L3)
