@@ -11,4 +11,5 @@
   - [第二节 Java字节码的修改](/part2/chapter2/L2)
   
 - [PJ1 修复游戏漏洞](pj1/PJ1)
+  - [PJ1Co 三种修复方式](pj1/PJ1Co)
 - [PJ2 插件内核汉化](pj2/PJ2)
