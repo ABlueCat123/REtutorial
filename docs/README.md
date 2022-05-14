@@ -2,7 +2,7 @@
 
 ## 逆向工程介绍
 
-逆向工程(Reverse Engineering)是一门“溯本求源”的技术。由于此概念在软件工程领域中的概念模糊不清<sup>[1]</sup>，按笔者的理解，可**粗略**理解为对于一个成品程序，通过其运行逻辑(乃至根据其运行逻辑而推测出来的类源代码)，来分析其设计理念、程序行为等开发者层面的内容的技术。
+逆向工程(Reverse Engineering)是一门“溯本求源”的技术。由于此概念在软件工程领域中的概念模糊不清<sup>[2]</sup>，按笔者的理解，可**粗略**理解为对于一个成品程序，通过其运行逻辑(乃至根据其运行逻辑而推测出来的类源代码)，来分析其设计理念、程序行为等开发者层面的内容的技术。
 
 受到这门技术本身的“名声限制”，在互联网上相关的资料并不是很多，甚至到了2022年，mcbbs论坛上依然没有一个较成体系的逆向工程教程。技术是一把双刃剑，技术本身并没有绝对的对错。人将技术用于何种目的，该技术才有和这种目的相匹配的立场，逆向工程也是如此。因此笔者编写此教程，来让更多人更好地认识和利用逆向工程技术。
 
@@ -31,8 +31,10 @@
 
 本篇参考资料和致谢
 1. Rarity's Plugin Dev Tutorial https://plgdev.xuogroup.top 感谢此教程在站点构建思路、前言的法律信息部分、部分思想等给我的启发。
+2. 逆向工程 Wikipedia: https://zh.wikipedia.org/wiki/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B
 
 延伸阅读：
-1. 逆向工程 Wikipedia: https://zh.wikipedia.org/wiki/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B
-2. CTF Wiki: https://ctf-wiki.org/
-3. OI Wiki: https://oi-wiki.org/
+1. CTF Wiki: https://ctf-wiki.org/
+2. OI Wiki: https://oi-wiki.org/
+3. 我的世界开发者中文指南: https://github.com/Mouse0w0/MinecraftDeveloperGuide
+4. 编程开发教程及资源索引: https://www.mcbbs.net/thread-54579-1-1.html
