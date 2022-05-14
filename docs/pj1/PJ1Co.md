@@ -2,7 +2,7 @@
 
 ?> **提示** 受笔者水平所限，本篇可能并不会非常完善，笔者很高兴读者能对此进行批评指正。若有任何想法，欢迎使用本教程主页的联系方式直接联系笔者。
 
-本篇将介绍用于完成PJ1的两种方式：编写MOD、修改字节码文件、编写ACBF扩展包。
+本篇将介绍用于完成PJ1的两种方式：编写MOD、修改字节码文件。
 
 对于这两种方式，基本上有以下适用情况：
 
@@ -174,7 +174,7 @@ public class Pj1 implements ModInitializer {
 
 因为整个类中只有这个类有**两个参数且一个参数为float**，那么这个类毫无意外一定是hurt(damage)方法。因此，我们就可以利用第二部分学到的技能直接去掉红框内判断条件即可。
 
-?> **说明** 为什么是红框内判断条件呢？实际上和yarn反混淆后的源码对比，加上逻辑的判断，基本上可以确定红框内对应的就是`if (!this.getStack().isEmpty() && this.getStack().isOf(Items.NETHER_STAR) && source.isExplosive())`判断条件,蓝框内对应的就是`if (!this.getStack().getItem().damage(source))` 判断条件。当然这些都是**经验上的**判定，如果不放心，请自行继续分析语义后再继续修改。
+?> **说明** 为什么是红框内判断条件呢？实际上和yarn反混淆后的源码对比，加上逻辑的判断，基本上可以确定红框内对应的就是`if (!this.getStack().isEmpty() && this.getStack().` `isOf(Items.NETHER_STAR) && source.isExplosive())`判断条件,蓝框内对应的就是`if (!this.getStack().getItem().damage(source))` 判断条件。当然这些都是**经验上的**判定，如果不放心，请自行继续分析语义后再继续修改。
 
 !> **注意** 再次提请注意， **散布修改版Minecraft<u>客户端</u>的行为违反[Minecraft最终用户许可协议](https://account.mojang.com/documents/minecraft_eula)** 。
 
