@@ -179,6 +179,10 @@ public class Pj1 implements ModInitializer {
 
 既然目标明确，那就可以动手修改了。(修改过程略，请自行参考第二部分进行修改)
 
+最终效果：
+
+<iframe height=516 width=856 src="pj1/video/pre.mp4">
+
 本篇参考资料：
 1. 由现象到本质的Minecraft源码注入艺术 https://www.mcbbs.net/thread-1205392-1-1.html
 2. 混淆映射表 中文Minecraft Wiki https://minecraft.fandom.com/zh/wiki/%E6%B7%B7%E6%B7%86%E6%98%A0%E5%B0%84%E8%A1%A8

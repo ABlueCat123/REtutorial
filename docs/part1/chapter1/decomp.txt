@@ -1,0 +1,60 @@
+### 二、反编译器介绍
+
+反编译器是逆向人员的最重要的朋友之一。它能将字节码文件直接反编译为高级语言代码，使得程序的运行机制一览无余。Java的反编译器种类多种多样。本文将介绍三种反编译器的使用：
+
+#### Jd-gui
+
+对于长期处于一线的反后门人员来说，Jd-gui的使用是很常见的。
+![jdgui](pic/jdgui.png)
+
+<center>jd-gui</center>
+
+使用起来很简单：只需要把需要反编译的文件拖拽到它的窗口内就行了。
+
+#### IDEA-Decompiler
+
+对于使用IntelliJ IDEA的开发者，你的IDEA就可以是一个反编译器！
+
+打开任意一个工程，把**解压后的**jar的文件夹内容复制到该工程范围下，就可以直接点击.class文件读源代码了。
+
+![idea](pic/idea.png)
+
+<center>IDEA反编译</center>
+
+#### jadx
+
+Jadx是一个功能强大的、实用的、免费的反编译器。它甚至支持反编译apk文件，且它反编译效率高、反编译出来的代码质量好。
+
+![jadx](pic/jadx.png)
+
+!> **注意货比三家!** 反编译器种类繁多、反编译出来的代码质量、可读性等都存在差异。**没有一款绝对最强的反编译器**。因此，注意货比三家，使用不同的反编译器来反编译代码，是逆向工程中的黄金法则。
+
+### 习题一：
+
+[下载习题文件](https://github.com/ABlueCat123/REtutorial/blob/main/Practice/Lesson1_1)
+
+!> **提醒** 在获得习题文件时请**谨慎**对比习题文件信息，以免收到不受信任的文件。
+
+习题文件信息：
+
+包含 1 个文件:
+- Lesson1_1.zip
+
+Lesson1_1.zip信息:
+
+`SHA256: 656f5ce326c5cec593be52ac89d36bd969c3f8023307bf66057731a0a9cd547b`
+`MD5: b2d4e305bb27499716eab09c11ccb4af`
+
+任务：
+* 解压缩文件`Lesson1_1.zip`，得到`Lesson1_1.jar`和文件夹`Lesson1_1`；
+* 反编译插件`Lesson1_1.jar`，并大致理解该插件的含义；
+* 使用IntelliJ IDEA打开该插件的工程项目文件`Lesson1_1`，根据反编译结果完成工程文件中**缺失**的部分，并**构建**它。
+
+### *习题二：
+
+任务：
+* 使用**至少三种**不同的反编译器反编译任意一份jar包(jar包可以在mc的目录下轻易找到)，对比反编译的代码质量。
+
+4. jd-gui: https://github.com/java-decompiler/jd-gui
+5. IntelliJ IDEA官网: https://www.jetbrains.com/idea/
+6. jadx: https://github.com/skylot/jadx/
