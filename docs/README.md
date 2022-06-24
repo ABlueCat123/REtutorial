@@ -30,7 +30,7 @@
 > 一切伟大的行动和思想,都有一个微不足道的开始。 ——阿尔贝·加缪
 
 本篇参考资料和致谢
-1. Rarity's Plugin Dev Tutorial https://plgdev.xuogroup.top 感谢此教程在站点构建思路、前言的法律信息部分、部分思想等给我的启发。
+1. Rarity's Plugin Dev Tutorial https://plgdev.xuogroup.top 感谢此教程在站点构建思路、前言的法律信息部分、部分思想等提供的启发。
 2. 本教程是使用docsify实现的，部分样式采用自：https://github.com/jhildenbiddle/docsify-themeable
 3. 逆向工程 Wikipedia: https://zh.wikipedia.org/wiki/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B
 4. 笔者所学习的逆向工程课程。如果笔者没有学习系统性的逆向工程课程，这篇教程也不可能出现。

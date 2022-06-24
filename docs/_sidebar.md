@@ -5,7 +5,7 @@
   - [第二节 逆向目的与逆向手段](/part1/chapter2/L2)
   - [第三节 反编译器介绍](/part1/chapter3/L3)
     - [补充篇 jadx的实用功能](/part1/chapter3/EX1)
-- 第二部分 字节码基础
+- [第二部分 字节码基础](/part2/intro)
   - [第一节 .class文件介绍](/part2/chapter1/L1)
   - [第二节 字节码指令介绍（一）](/part2/chapter2/L2)
   - [第三节 字节码指令介绍（二）](/part2/chapter3/L3)
