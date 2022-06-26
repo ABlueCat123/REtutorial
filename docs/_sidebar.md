@@ -7,11 +7,11 @@
     - [补充篇 jadx的实用功能](/part1/chapter3/EX1)
 - [第二部分 字节码基础](/part2/intro)
   - [第一节 .class文件介绍](/part2/chapter1/L1)
-  - [第二节 字节码指令介绍（一）](/part2/chapter2/L2)
-  - [第三节 字节码指令介绍（二）](/part2/chapter3/L3)
-  - [第四节 字节码指令介绍（三）](/part2/chapter4/L4)
-  - [第五节 字节码指令介绍（四）](/part2/chapter5/L5)
-  - [第六节 方法签名](/part2/chapter5/L6)
+  - [第二节 描述符与方法签名](/part2/chapter2/L2)
+  - [第三节 字节码指令介绍（一）](/part2/chapter3/L3)
+  - [第四节 字节码指令介绍（二）](/part2/chapter4/L4)
+  - [第五节 字节码指令介绍（三）](/part2/chapter5/L5)
+  - [第六节 字节码指令介绍（四）](/part2/chapter6/L6)
   
 - 第三部分 字节码修改技术
   - [第一节 ASM介绍](/part3/chapter1/L1)
@@ -29,5 +29,7 @@
   - [第一节 混淆与反混淆](/part4/chapter1/L1)
     - [补充篇 混淆器介绍](/part4/chapter1/EX1)
   - [第二节 控制流图分析](/part4/chapter2/L2)
-  
+
+- 第五部分 本地代码逆向
+
 - [FINAL-PJ 迷你攻防游戏](FPJ/FPJ)
