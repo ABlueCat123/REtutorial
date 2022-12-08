@@ -15,10 +15,8 @@
 - [第三部分 字节码修改技术](/part3/intro)
   - [第一节 ASM介绍](/part3/chapter1/L1)
   - [第二节 ASM使用方法](/part3/chapter2/L2)
-  - [第三节 Javassist介绍](/part3/chapter3/L3)
-  - [第四节 Javassist使用方法](/part3/chapter4/L4)
-  - [第五节 使用JBE直接修改字节码](/part3/chapter5/L5)
-  - [第六节 插桩分析](/part3/chapter6/L6)
+  - [第三节 Javassist介绍及使用](/part3/chapter3/L3)
+  - [第四节 使用Recaf直接修改字节码](/part3/chapter4/L4)
 
 - [特别部分 PJ1 预热](/part-pj1WU/intro.md)
   - [第一节 Coremod 初探及ACBF扩展包编写](/part-pj1WU/chapter1/L1)
